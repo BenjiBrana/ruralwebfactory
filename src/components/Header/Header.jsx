@@ -107,7 +107,7 @@ export default function Header() {
                 className="h-8 w-8 mobile:h-12 mobile:w-12 hover:bg-red-500/70 hover:border-black/50 hover:border-2 rounded-full p-1"
                 src="/logo/close.svg"
                 alt="Logo fermeture"
-                title="Logo Rural Web Factory"
+                title="Logo pour la fermeture du menu"
                 width={30}
                 height={30}
               />
@@ -153,7 +153,7 @@ export default function Header() {
           )}
         </div>
       </nav>
-      <section className="flex tablette:flex-col items-center bg-textColor">
+      <div className="flex tablette:flex-col items-center bg-textColor">
         <div className="w-full flex  justify-center h-16">
           <h1 className="flex items-end font-titleFont font-bold text-4xl mobile:text-2xl  p-2 text-primary">
             Rural <b className="pl-1 text-tertinary ">W</b>eb Factory
@@ -182,7 +182,7 @@ export default function Header() {
             />
           </button>
         </div>
-      </section>
+      </div>
     </header>
   );
 }
