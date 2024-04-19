@@ -4,7 +4,6 @@ import React from 'react';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import FilAriane from '@/components/FilAriane/FilAriane';
-import { SpeedInsights } from '@vercel/speed-insights/next';
 import ArrowTop from '@/components/ArrowTop/ArrowTop';
 
 export const metadata = {
@@ -44,7 +43,6 @@ export default function RootLayout({ children }) {
         <ArrowTop />
         {children}
         <Footer />
-        <SpeedInsights />
       </body>
     </html>
   );
