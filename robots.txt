@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /admin
 Disallow: /private
 Allow: /public
-Sitemap: https://ccp1-brana.vercel.app/sitemap.xml
+Sitemap: https://ruralwebfactory.vercel.app/sitemap.xml
