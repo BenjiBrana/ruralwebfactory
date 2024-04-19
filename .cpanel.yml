@@ -1,0 +1,3 @@
+deployment:
+  tasks: -export DEPLOYPATH=home/hasa4710/ruralwebfactory
+    - /bin/cp * $DEPLOYPATH

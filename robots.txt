@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin
+Disallow: /private
+Allow: /public
+Sitemap: https://ccp1-brana.vercel.app/sitemap.xml
